@@ -39,6 +39,7 @@ public class RSAUtil {
         gen.initialize(keysize);
         return gen.genKeyPair();
     }
+
     /**
      * Public Key로 RSA 암호화를 수행
      */
